@@ -4,9 +4,9 @@ import Router from 'vue-router'
 Vue.use(Router)
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: resolve => require(['@/modules/Home.vue'], resolve),
+    path: '/main/index',
+    name: '网站首页',
+    component: resolve => require(['@/modules/Index.vue'], resolve),
   },
 
   {
